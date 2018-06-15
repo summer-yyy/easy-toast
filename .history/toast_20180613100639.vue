@@ -3,8 +3,8 @@
     <div class="wrap" v-show="visible">
         <div class="content">
           <div class="icon" v-if="type !== undefined">
-            <img v-if="type === 'success'" src="./images/icon-check.png" alt="">
-            <img v-if="type === 'fail'" src="./images/icon-cross.png" alt="">
+            <img v-if="type === 'success'" src="@/views/resource/images/icon-check.png" alt="">
+            <img v-if="type === 'fail'" src="@/views/resource/images/icon-cross.png" alt="">
           </div>
           <div class="main">
             <p class="title">{{title}}</p>

@@ -1,0 +1,23 @@
+{
+  "name": "easy-toast",
+  "version": "1.0.0",
+  "description": "vue simple toast component",
+  "main": "toast.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summer-yyy/easy-toast.git"
+  },
+  "keywords": [
+    "vue",
+    "toast"
+  ],
+  "author": "marco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/summer-yyy/easy-toast/issues"
+  },
+  "homepage": "https://github.com/summer-yyy/easy-toast#readme"
+}
