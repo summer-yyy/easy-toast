@@ -33,9 +33,15 @@ Toast.install = function (Vue, options) {
  
     setTimeout(function () {
       toastVM.visible = showToast = false;
-    }, opt.duration)
+    }, opt.duration)    
   };
 
+    Vue.prototype.$toast.prototype = {
+      hide () {
+        toastVM.visible = showToast = false;
+      }
+    
+    }
 }
  
 // 向外暴露接口
