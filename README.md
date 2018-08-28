@@ -23,7 +23,12 @@ Vue.use(Toast, {duration: 1500 // 消失间隔，可以不传，默认1.5s});
 ## 
 ### 或者直接传String类，直接显示内容  
  
- 
+# methods
+### 手动关闭的方法:
+```
+this.$toast.hide();
+```
+
  # example
 ```
 this.$toast({
