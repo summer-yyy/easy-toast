@@ -72,6 +72,9 @@ export default {
    .icon {
      margin-right: 10px;
      height: 20px;
+     img {
+       height: 100%;
+     }
    }
    .main {
      color: #444;
